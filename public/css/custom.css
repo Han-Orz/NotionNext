@@ -6,3 +6,15 @@
 .fa-info:before {
     content: "\f05a";
 }
+
+.rounded-md {
+    border-radius: 0rem;
+}
+
+.text-xl {
+    font-size: 1.5rem;
+}
+
+footer {
+    display: none;
+}
