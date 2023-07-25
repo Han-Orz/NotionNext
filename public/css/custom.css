@@ -25,3 +25,37 @@ footer {
 .border-t {
     border-top: none;
 }
+
+/* 摘要字体大小 */
+.mt-4 {
+    font-size: 1rem !important;
+}
+
+/* 标题 */
+.notion-h1 {
+    font-size: 2.3rem;
+    border-bottom: none;
+    margin: 1em 0 0.2em 0;
+    text-align: center;
+    color: #8f3d2c;
+}
+
+.notion-h2 {
+    margin-top: 0.3em;
+    color: #bf9c46;
+}
+
+.notion-h3 {
+    margin-top: 0;
+}
+
+/* 正文 */
+.notion-text {
+    font-size: 16px;
+    font-family: serif;
+}
+
+/* 引用块 */
+.notion-quoe {
+    border-radius: 0;
+}
