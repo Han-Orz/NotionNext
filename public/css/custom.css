@@ -51,8 +51,12 @@ footer {
 
 /* 正文 */
 .notion-text {
-    font-size: 16px;
+    font-size: 18px;
     font-family: serif;
+    font-weight: 500;
+    line-height: 1.8rem !important;
+    margin-top: 0.5rem !important;
+    text-indent: 2em;
 }
 
 /* 引用块 */

@@ -72,8 +72,8 @@ const BLOG = {
   FONT_SERIF: [
     // '"LXGW WenKai"',
     'Bitter',
-    '"LXGW WenKai Screen"',
     '"LXGW WenKai"',
+    '"LXGW WenKai Screen"',
     '"Noto Serif SC"',
     'SimSun',
     '"Times New Roman"',
