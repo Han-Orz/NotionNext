@@ -59,3 +59,8 @@ footer {
 .notion-quoe {
     border-radius: 0;
 }
+
+/* 文章块动画效果修复 */
+div#article-wrapper {
+    transition-duration: .3s;
+}
