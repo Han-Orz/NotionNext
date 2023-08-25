@@ -68,3 +68,8 @@ footer {
 div#article-wrapper {
     transition-duration: .3s;
 }
+
+/* 公告样式调整 */
+#announcement-content {
+    text-indent: 0;
+}
