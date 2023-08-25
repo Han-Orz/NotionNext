@@ -70,6 +70,6 @@ div#article-wrapper {
 }
 
 /* 公告样式调整 */
-#announcement-content {
+div#announcement-content .notion-text {
     text-indent: 0;
 }
