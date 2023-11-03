@@ -10,7 +10,7 @@ export default function WordCount() {
   })
 
   return <div id='wordCountWrapper' className='flex justify-center my-auto'>
-    <i className='mr-1 fas fa-file-word my-auto' /> <span className='hidden md:block'> ▪ 字数</span> <div id='wordCount'>0</div>
+    <span className='hidden md:block'>字数</span> <div id='wordCount'>0</div>
   </div>
 }
 
@@ -22,7 +22,7 @@ function countWords() {
   const wordCount = fnGetCpmisWords(articleText)
   // 阅读速度 300-500每分钟
   document.getElementById('wordCount').innerHTML = wordCount
-  document.getElementById('readTime').innerHTML = Math.floor(wordCount / 400) + 1
+  // document.getElementById('readTime').innerHTML = Math.floor(wordCount / 400) + 1
   const wordCountWrapper = document.getElementById('wordCountWrapper')
   wordCountWrapper.classList.remove('hidden')
 }
