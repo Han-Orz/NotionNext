@@ -51,7 +51,7 @@ export default function ArticleDetail(props) {
                     </div>
 
                     {/* meta */}
-                    <section className="mt-2 text-gray-400 dark:text-gray-400 font-light leading-7 text-sm">
+                    <section className="mt-2 text-gray-400 dark:text-gray-400 leading-7 text-sm">
                         <div className='flex flex-wrap justify-center'>
                             {post?.type !== 'Page' && (<>
                                 <Link
@@ -64,7 +64,7 @@ export default function ArticleDetail(props) {
                                 </Link>
                                 <span className='mr-2'> ▪ 改于{formatDateFmt(post.lastEditedDay, 'yyMMdd')} </span>
 
-                                <div className="hidden busuanzi_container_page_pv font-light mr-2">
+                                <div className="hidden busuanzi_container_page_pv mr-2">
                                      ▪ 阅读
                                     <span className="mr-2 busuanzi_value_page_pv" />
                                 </div>
