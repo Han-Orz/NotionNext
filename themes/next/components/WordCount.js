@@ -9,7 +9,8 @@ export default function WordCount() {
     countWords()
   })
 
-  return <div id='wordCountWrapper' className='flex justify-center my-auto font-light'><span className='hidden md:block'>字数</span><strong id='wordCount'>0</strong>
+  return <div id='wordCountWrapper' className='flex justify-center my-auto font-light'>
+    <i className='mr-1 fas fa-file-word my-auto' /> <span className='hidden md:block'>本文字数</span> <strong id='wordCount'>0</strong> &nbsp;|&nbsp; <i className='mr-1 fas fa-clock my-auto' /> <span className='hidden md:block'>阅读时长 ≈</span> <strong id='readTime'>0</strong> 分钟
   </div>
 }
 

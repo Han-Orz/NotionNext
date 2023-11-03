@@ -55,24 +55,24 @@ export default function ArticleDetail(props) {
                         <div className='flex flex-wrap justify-center'>
                             {post?.type !== 'Page' && (<>
                                 <Link
-                                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
+                                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyyMMdd')}`}
                                     passHref
                                     legacyBehavior>
                                     <div className="pl-1 mr-2 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 border-b dark:border-gray-500 border-dashed">
-                                        {post?.publishDay}
+                                        <i className='far fa-calendar mr-1' /> {post?.publishDay}
                                     </div>
                                 </Link>
-                                <span className='mr-2'> ▪ {post.lastEditedDay} </span>
+                                <span className='mr-2'> | <i className='far fa-calendar-check mr-2' />{post.lastEditedDay} </span>
 
                                 <div className="hidden busuanzi_container_page_pv font-light mr-2">
-                                    <span> ▪ </span>
+                                    <i className='mr-1 fas fa-eye' />
                                     <span className="mr-2 busuanzi_value_page_pv" />
                                 </div>
-                                <span> ▪ </span><WordCount />
+
                             </>)}
                         </div>
 
-                        
+                        <WordCount />
                     </section>
 
                 </header>}
