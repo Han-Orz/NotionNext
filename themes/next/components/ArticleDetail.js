@@ -55,7 +55,7 @@ export default function ArticleDetail(props) {
                         <div className='flex flex-wrap justify-center'>
                             {post?.type !== 'Page' && (<>
                                 <Link
-                                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyyMMdd')}`}
+                                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
                                     passHref
                                     legacyBehavior>
                                     <div className="pl-1 mr-2 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 border-b dark:border-gray-500 border-dashed">
