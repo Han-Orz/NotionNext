@@ -46,8 +46,8 @@ const BLOG = {
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap',
-    'https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css', //霞鹜文楷
-    'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css', //霞鹜文楷屏幕阅读版
+    'https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css',
+    'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css'
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
