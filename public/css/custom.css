@@ -26,6 +26,11 @@
     border-top: none;
 }
 
+/* 文章信息 */
+.mt-2 {
+    font-weight: normal;
+}
+
 /* 摘要字体大小 */
 .mt-4 {
     font-size: 1rem !important;
