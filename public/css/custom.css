@@ -13,7 +13,8 @@
 
 /* 站点标题 */
 .text-xl {
-    font-size: 1.5rem;
+    font-size: 2em;
+    font-family: 'Huiwen-mincho';
 }
 
 /* 去掉页脚 */
