@@ -119,7 +119,7 @@ const LayoutBase = (props) => {
             </div>
 
             {/* 页脚 */}
-            <Footer title={siteInfo?.title} />
+            {/* <Footer title={siteInfo?.title} /> */}
         </div>
   )
 }

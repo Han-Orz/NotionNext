@@ -17,9 +17,9 @@
 }
 
 /* 去掉页脚 */
-footer {
+/* footer {
     display: none;
-}
+} */
 
 /* 去摘要下面的分割线 */
 .border-t {
@@ -29,6 +29,17 @@ footer {
 /* 摘要字体大小 */
 .mt-4 {
     font-size: 1rem !important;
+}
+
+/* 文章标题 */
+.pt-6 {
+    font-size: 2.3rem;
+    border-style: double;
+    border-width: 1px;
+    padding: 3px;
+    margin: 0.3em 0 1em 0;
+    text-align: center;
+    color: #8f3d2c;
 }
 
 /* 标题 */
