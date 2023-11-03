@@ -26,6 +26,11 @@
     border-top: none;
 }
 
+/* 二级菜单 */
+.my-auto {
+    border-bottom-width: 0;
+}
+
 /* 文章信息 */
 .mt-2 {
     font-weight: normal;
