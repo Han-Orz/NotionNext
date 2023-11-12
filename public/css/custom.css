@@ -94,3 +94,8 @@ div#article-wrapper {
 div#announcement-content .notion-text {
     text-indent: 0;
 }
+
+/* 不要细字体 */
+.font-light {
+    font-weight: normal;    
+}
