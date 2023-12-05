@@ -10,7 +10,7 @@ export default function WordCount() {
   })
 
   return <div id='wordCountWrapper' className='flex justify-center my-auto'>
-    <span className='hidden md:block'></span> <div id='wordCount'>0</div>
+    <span className='hidden md:block'>字数</span> <div id='wordCount'>0</div>
   </div>
 }
 
