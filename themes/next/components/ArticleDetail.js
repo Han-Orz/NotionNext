@@ -59,11 +59,12 @@ export default function ArticleDetail(props) {
                                     passHref
                                     legacyBehavior>
                                     <div className="pl-1 mr-2 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 border-b dark:border-gray-500 border-dashed">
-                                        写于{formatDateFmt(post?.publishDay, 'yyMMdd')}
+                                        写于{formatDateFmt(post?.publishDay, 'yy年MM月dd日')}
                                     </div>
                                 </Link>
-                                <span className='mr-2'>&nbsp;▪&nbsp;改于{formatDateFmt(post.lastEditedDay, 'yyMMdd')} </span>
-                                <span>&nbsp;▪&nbsp;</span><WordCount />
+                                <span className='mr-2'>&nbsp;▪&nbsp;改于{formatDateFmt(post.lastEditedDay, 'yy年MM月dd日')} </span>
+                                <br />
+                                <span>&nbsp;▪&nbsp;字数</span><WordCount />
                                 <div className="hidden busuanzi_container_page_pv mr-2">
                                     <span>&nbsp;▪&nbsp;阅读</span>
                                     <span className="mr-2 busuanzi_value_page_pv" />
