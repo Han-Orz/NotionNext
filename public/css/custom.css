@@ -36,6 +36,9 @@
 .mt-2 {
     font-weight: normal;
 }
+.pl-1 {
+    padding-left: 0rem;
+}
 
 /* 摘要字体大小 */
 .mt-4 {
