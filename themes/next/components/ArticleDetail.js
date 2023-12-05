@@ -63,8 +63,8 @@ export default function ArticleDetail(props) {
                                     </div>
                                 </Link>
                                 <span className='mr-2'>&nbsp;▪&nbsp;改于{formatDateFmt(post.lastEditedDay, 'yy年MM月dd日')} </span>
-                                <br />
-                                <span>&nbsp;▪&nbsp;字数</span><WordCount />
+                                <br></br>
+                                <div><span>▪&nbsp;字数</span><WordCount /></div>
                                 <div className="hidden busuanzi_container_page_pv mr-2">
                                     <span>&nbsp;▪&nbsp;阅读</span>
                                     <span className="mr-2 busuanzi_value_page_pv" />
