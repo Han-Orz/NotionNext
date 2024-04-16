@@ -18,9 +18,9 @@
 }
 
 /* 去掉页脚 */
-/* footer {
+footer {
     display: none;
-} */
+}
 
 /* 去摘要下面的分割线 */
 .border-t {
@@ -47,7 +47,7 @@
 
 /* 文章标题 */
 .pt-6 {
-    font-family: 'Huiwen-mincho';
+    font-family: sans-serif;
     font-size: 3rem;
     padding: 3px;
     margin: 0.5em 0 1em 0;
@@ -57,6 +57,10 @@
 }
 
 /* 标题 */
+.notion-h {
+    font-family: sans-serif;
+}
+
 .notion-h1 {
     font-size: 2.3rem;
     border-bottom: none;
@@ -67,11 +71,12 @@
 
 .notion-h2 {
     margin-top: 0.3em;
-    color: #bf9c46;
+    color: #2e437e;
 }
 
 .notion-h3 {
     margin: 8px 0 -4px 0;
+    color: #424c50;
 }
 
 /* 正文 */
