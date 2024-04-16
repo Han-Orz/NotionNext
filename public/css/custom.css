@@ -35,6 +35,7 @@ footer {
 /* 文章信息 */
 .mt-2 {
     font-weight: normal;
+    display: none;
 }
 .pl-1 {
     padding-left: 0rem;
@@ -59,6 +60,7 @@ footer {
 /* 标题 */
 .notion-h {
     font-family: sans-serif;
+    font-weight: bold;
 }
 
 .notion-h1 {
@@ -77,7 +79,7 @@ footer {
 
 .notion-h3 {
     margin: 8px 0 -4px 0;
-    color: #424c50;
+    color: #375662;
 }
 
 /* 正文 */
