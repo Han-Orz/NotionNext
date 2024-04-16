@@ -14,7 +14,7 @@
 /* 站点标题 */
 .text-xl {
     font-size: 2em;
-    font-family: 'Huiwen-mincho';
+    font-family: sans-serif;
 }
 
 /* 去掉页脚 */
@@ -47,7 +47,7 @@ footer {
 
 /* 文章标题 */
 .pt-6 {
-    font-family: sans-serif;
+    font-family: 'HansTitle';
     font-size: 3rem;
     padding: 3px;
     margin: 0.5em 0 1em 0;
@@ -67,6 +67,7 @@ footer {
     margin: 1em 0 0.2em 0;
     text-align: center;
     color: #8f3d2c;
+    font-family: 'HansTitle';
 }
 
 .notion-h2 {
